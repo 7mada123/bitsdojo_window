@@ -1,10 +1,10 @@
 import 'package:flutter/painting.dart';
-import 'package:win32/win32.dart';
+// import 'package:win32/win32.dart';
 
 abstract class DesktopWindow {
   DesktopWindow();
   int? get nonWindowsHandle => 0;
-  HWND? get handle => null;
+  get handle => null;
   double get scaleFactor;
 
   Rect get rect;
